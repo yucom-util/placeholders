@@ -1,0 +1,36 @@
+{
+  "name": "@yucom/placeholders",
+  "version": "1.1.0",
+  "description": "Text interpolation library",
+  "main": "src/placeholders.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yucom-util/placeholders.git"
+  },
+  "keywords": [
+    "placeholders",
+    "iterpolation"
+  ],
+  "author": "llobeto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yucom-util/placeholders/issues"
+  },
+  "homepage": "https://github.com/yucom-util/placeholders#readme",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "get-value": "^3.0.1",
+    "jsonic": "^0.3.1",
+    "traverse": "^0.6.6"
+  }
+}
